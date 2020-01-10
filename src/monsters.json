@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Wignow",
+        "img": "https://vignette.wikia.nocookie.net/4thewords/images/3/31/Nanowignow_md.png/revision/latest?cb=20180830214625"
+    },
+    {
+        "id": 2,
+        "name": "Aracni",
+        "img": "https://vignette.wikia.nocookie.net/4thewords/images/b/bb/Aracni_md.png/revision/latest/top-crop/width/300/height/300?cb=20180831014554"
+    },
+    {
+        "id": 3,
+        "name": "Reenu",
+        "img": "https://vignette.wikia.nocookie.net/4thewords/images/2/25/Reenu_lg.png/revision/latest?cb=20180725183910"
+    },
+    {
+        "id": 4,
+        "name": "Puna",
+        "img": "https://media.4thewords.com/s3/public/monsters/1548774765_featured_puna.png"
+    },
+    {
+        "id": 5,
+        "name": "Awa",
+        "img": "https://media.4thewords.com/s3/media/modules/game/monsters/1532263966_awa.png"
+    },
+    {
+        "id": 6,
+        "name": "Viyu",
+        "img": "https://media.4thewords.com/s3/public/monsters/1572479551_featured_viyu.png"
+    },
+    {
+        "id": 7,
+        "name": "Rudakai",
+        "img": "https://media.4thewords.com/s3/public/monsters/1567186156_featured_rudakai.png"
+    },
+    {
+        "id": 8,
+        "name": "Mawt",
+        "img": "https://media.4thewords.com/s3/media/monsters/special/silvermawt/silvermawt_md.png"
+    },
+    {
+        "id": 9,
+        "name": "Viyusa",
+        "img": "https://media.4thewords.com/s3/public/monsters/1572534405_featured_viyusa.png"
+    },
+    {
+        "id": 10,
+        "name": "Sassi",
+        "img": "https://media.4thewords.com/s3/public/monsters/1576619154_featured_sassy.png"
+    },
+    {
+        "id": 11,
+        "name": "Aracnu",
+        "img": "https://media.4thewords.com/s3/media/monsters/luciola/aracnu/aracnu_md.png"
+    },
+    {
+        "id": 12,
+        "name": "Vi",
+        "img": "https://media.4thewords.com/s3/public/monsters/1572478583_featured_vi.png"
+    }
+]
