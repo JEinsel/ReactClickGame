@@ -40,13 +40,14 @@ class App extends Component {
       this.setState({ nameArray: [], score: 0 })
     }
     this.shuffle()
+    this.winLose()
   }
 
   winLose = () => {
     if (this.state.score === 12) {
       alert("You win!")
       this.shuffle()
-    } 
+    } else {console.log("Line 50 waiting...")}
   }
   render() {
     return (
