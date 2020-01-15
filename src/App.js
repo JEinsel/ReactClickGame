@@ -15,6 +15,7 @@ class App extends Component {
 
   }
 
+
   shuffle = () => {
     const monsterCopy = this.state.monsters
     for (let i = monsterCopy.length - 1; i > 0; i--) {
@@ -26,8 +27,6 @@ class App extends Component {
   }
 
   clickHandler = (name) => {
-    // this.nameArray.push(name);
-    // this.nameArray.indexOf(name)
     if (this.state.nameArray.indexOf(name) === -1) {
       let nameCopy = this.state.nameArray
       let scoreCopy = this.state.score
@@ -35,14 +34,20 @@ class App extends Component {
       nameCopy.push(name)
       console.log(scoreCopy)
       this.setState({ nameArray: nameCopy, score: scoreCopy })
-      console.log("Line 34 success")
+      console.log("Line 38 success")
     } else {
-      console.log("Line 36 App.js")
+      console.log("Line 40 App.js")
       this.setState({ nameArray: [], score: 0 })
     }
     this.shuffle()
   }
 
+  winLose = () => {
+    if (this.state.score === 12) {
+      alert("You win!")
+      this.shuffle()
+    } 
+  }
   render() {
     return (
       <div className="App" >
